@@ -42,13 +42,13 @@ l2[fqind]:.fq.lf funcc;
 show"Evaluation Type: ",last .z.x;show"Iterations: ",first .z.x;show res:$[`;lower last .z.x] xasc([]submission:func;speed:l1;length:l2;output:fqc);
 
 //Reference Card
-//fqi = FunQ input
-//fqo = FunQ output
+//fqi = Script input
+//fqo = Script output
 //func = functions defined in script
 //funcc = functions which match outputs(fqo) based on inputs(fqi)
 //fqc = error trapped outputs of function run
 //fqind = indexes where funcc
-//.fq.sf = FunQ speed test
-//.fq.lf = FunQ length test
+//.fq.sf = script speed test
+//.fq.lf = script length test
 //l1 = list of speeds for each function
 //l2 = list of lengths for each function
